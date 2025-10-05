@@ -1,0 +1,27 @@
+{
+  "name": "myroomservice",
+  "version": "1.0.0",
+  "description": "This will be an Uber-style cleaning app.",
+  "main": "index.js",
+"scripts": {
+  "start": "node server.js",
+  "dev": "nodemon server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myroomservice00/myroomservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myroomservice00/myroomservice/issues"
+  },
+  "homepage": "https://github.com/myroomservice00/myroomservice#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
